@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage and Discount</title>
+</head>
+<body>
+
+    <header>
+        <h1>Percentage and Discount</h1>
+    </header>
+
+    <section>
+        <form>
+        <h2>Calculate Discount</h2>
+        
+        <label for="InputPrice">
+            Escribe el Precio
+        </label>
+        <input id="InputPrice" type="number" />
+        
+        <label for="InputCoupon">
+            Escribe el Cupon
+        </label>
+        <input id="InputCoupon" type="text" />
+        
+        <button type="button" onclick="onClickButtonPriceDiscount()">
+            Verificar cupon
+        </button>
+
+        <p id="ResultP"></p>
+    
+    </form>
+    </section>
+    <script src="./descuento.js"></script>
+</body>
+</html>
